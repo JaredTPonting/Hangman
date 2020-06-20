@@ -130,7 +130,7 @@ def guessButton(guess):
     
 root = tk.Tk()
 root.title("Hangman")
-#root.iconbitmap("hangicon.ico")
+root.iconbitmap("hangicon.ico")
 canvas = tk.Canvas(root, height = 500, width = 500)
 canvas.pack()
 
