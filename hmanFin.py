@@ -132,7 +132,7 @@ root = tk.Tk()
 root.title("Hangman")
 root.iconbitmap("hangicon.ico")
 canvas = tk.Canvas(root, height = 500, width = 500)
-canvas.pack()
+canvas.place(relwidth = 1,relheight = 1, relx=0,rely=0)
 
 
 
