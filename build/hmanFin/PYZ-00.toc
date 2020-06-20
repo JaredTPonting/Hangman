@@ -1,4 +1,4 @@
-('C:\\Users\\jared\\Documents\\ZenevaCoding\\Python\\projects\\Hangman\\build\\hmanFin\\PYZ-00.pyz',
+('C:\\Users\\jared\\Documents\\ZenevaCoding\\Python\\projects\\Hangman\\Hangman\\build\\hmanFin\\PYZ-00.pyz',
  [('os', 'c:\\python27\\lib\\os.py', 'PYMODULE'),
   ('copy_reg', 'c:\\python27\\lib\\copy_reg.py', 'PYMODULE'),
   ('types', 'c:\\python27\\lib\\types.py', 'PYMODULE'),

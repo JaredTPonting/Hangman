@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['hmanFin.py'],
-             pathex=['C:\\Users\\jared\\Documents\\ZenevaCoding\\Python\\projects\\Hangman'],
+             pathex=['C:\\Users\\jared\\Documents\\ZenevaCoding\\Python\\projects\\Hangman\\Hangman'],
              binaries=[],
              datas=[],
              hiddenimports=[],
