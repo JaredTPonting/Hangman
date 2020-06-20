@@ -98,7 +98,7 @@ def guessButton(guess):
     global guessed_letters
     global word
     if tries == 0:
-        hangLabel['text'] = "You Lose AHAHA" + "\n" + HANGMANPICS[hang] + "\n" + "\n" +"The answer was " + word
+        hangLabel['text'] = "You Lose AHAHA" + "\n" + HANGMANPICS[hang] + "\n" + "\n" +"The answer was " + word +"\n" + "Click Play Game if you fancy losing again :)"
 
     else:
         if guess in guessed_letters and len(guess) == 1:
@@ -111,7 +111,7 @@ def guessButton(guess):
 	    	playLabel['text'] = display
 	    	hangLabel['text'] = HANGMANPICS[hang] + "\n" + "\n" + "Guess is not in word :("
 	    	if tries == 0:
-	    	    hangLabel['text'] = "You Lose AHAHA" + "\n" + HANGMANPICS[hang] + "\n" + "\n" +"The answer was " + word
+	    	    hangLabel['text'] = "You Lose AHAHA" + "\n" + HANGMANPICS[hang] + "\n" + "\n" +"The answer was " + word +"\n" + "\n" +"Click Play Game if you fancy losing again :)"
         elif len(guess) == 1:
 	    	guessed_letters.append(guess)
 	    	hangLabel['text'] = HANGMANPICS[hang] + "\n" + "\n" + "lucky guess >:("
